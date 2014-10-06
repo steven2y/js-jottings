@@ -5,8 +5,8 @@
 * [Objects](objects/README.md)
    * [New Operator](new_operator/README.md)
    * [this](this/README.md)
-* [IIFE or SEAF](iife_or_seaf/README)
+* [IIFE or SEAF](iife_or_seaf/README.md)
 * [ECMAScript 5](ecma5/README)
    * [Strict Mode](strict_mode/README.md)
-   * [JSON getter setter](ecma5/json_getter_setter)
+   * [JSON getter setter](ecma5/json_getter_setter.md)
 
