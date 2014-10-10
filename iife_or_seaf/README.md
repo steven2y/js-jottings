@@ -58,6 +58,33 @@ console.log(count);//ReferenceError: count is not defined
 ```
 Here the anonymous function returns an object that has a function that references a variable with in the anonymous function.  As you can see the ```count``` is not accessible from outside the function.
 
+###Private Static Variables
+
+In fact you can use this pattern to create static private variables.  So creating multiple objects that all share one variable that is private to themselves.  See below.
+
+```javascript
+var SharedCounter = (
+function(){
+  var counter = 0;
+
+  return function(){
+    this.count = function(){
+      console.log(counter++);
+    }
+  };
+})();
+
+var a = new SharedCounter();
+var b = new SharedCounter();
+var c = new SharedCounter();
+a.count(); //0
+b.count(); //1
+c.count(); //2
+
+console.log(a.counter) //undefined
+console.log(counter)// ReferenceError: counter is not defined
+```
+
 
 
 
