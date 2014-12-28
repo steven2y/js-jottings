@@ -15,4 +15,3 @@
    * [Default Parameters](ecmascript_6/default_parameters.md)
    * [Rest Parameters](ecmascript_6/rest_parameters.md)
    * [Classes](ecmascript_6/classes.md)
-
