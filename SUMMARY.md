@@ -10,8 +10,10 @@
 * [ECMAScript 5](ecma5/README.md)
    * [Strict Mode](strict_mode/README.md)
    * [JSON getter setter](ecma5/json_getter_setter.md)
+   * [Object.defineProperty()](ecma5/object_defineproperty.md)
 * [ECMAScript 6](ecmascript_6/README.md)
    * [Arrow Functions](ecmascript_6/arrow_functions.md)
    * [Default Parameters](ecmascript_6/default_parameters.md)
    * [Rest Parameters](ecmascript_6/rest_parameters.md)
    * [Classes](ecmascript_6/classes.md)
+
