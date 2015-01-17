@@ -11,6 +11,7 @@
    * [Strict Mode](strict_mode/README.md)
    * [JSON getter setter](ecma5/json_getter_setter.md)
    * [Object.defineProperty()](ecma5/object_defineproperty.md)
+       * [Freeze & Seal](ecma5/freeze_&_seal.md)
 * [ECMAScript 6](ecmascript_6/README.md)
    * [Arrow Functions](ecmascript_6/arrow_functions.md)
    * [Default Parameters](ecmascript_6/default_parameters.md)
