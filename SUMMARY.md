@@ -7,6 +7,7 @@
    * [this](this/README.md)
    * [Object.create()](objects/object_create.md)
 * [IIFE or SEAF](iife_or_seaf/README.md)
+   * [Closure](iife_or_seaf/closure.md)
 * [ECMAScript 5](ecma5/README.md)
    * [Strict Mode](strict_mode/README.md)
    * [JSON getter setter](ecma5/json_getter_setter.md)
