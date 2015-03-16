@@ -15,7 +15,8 @@
        * [Freeze & Seal](ecma5/freeze_&_seal.md)
 * [ECMAScript 6](ecmascript_6/README.md)
    * [Arrow Functions](ecmascript_6/arrow_functions.md)
-   * [Default Parameters](ecmascript_6/default_parameters.md)
-   * [Rest Parameters](ecmascript_6/rest_parameters.md)
    * [Classes](ecmascript_6/classes.md)
+   * [Default Parameters](ecmascript_6/default_parameters.md)
+   * [Let](ecmascript_6/let.md)
+   * [Rest Parameters](ecmascript_6/rest_parameters.md)
 
