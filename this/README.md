@@ -1,7 +1,29 @@
 # this
+Simple example of 'this' changing context.
+```javascript
+var obj = {
+  text: 'hello',
+  show: function show(){
+    console.log(this.text);
+  }
+}
+
+obj.show();//hello
+
+var text = 'me';
+
+//potential problem as the behaviour is unexpected most the time
+setTimeout(obj.show, 100);//'me' this binding is to the current scope as it is that called as a object method
+
+var funcObj = obj.show
+funcObj();//'me' this binding is to the current scope same problem as above
+
+//to fix this you can bind 'this' to the object you want this to be
+var funcObjBound = obj.show.bind(obj)
+funcObjBound();//hello
+```
 
 Prototypical inheritance example.  Just showing that context of 'this' changes.
-
 
 ```javascript
 
@@ -46,6 +68,8 @@ objectB.blurb();//1,2,3 which is the a,b,c from the testB object
 
 For more reading see:
 
+[this][this]
+
 [Prototype Constructor][Prototype Constructor]
 
 [Instance Of][Instance Of]
@@ -53,3 +77,5 @@ For more reading see:
 [Prototype Constructor]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor
 
 [Instance Of]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof
+
+[this]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
