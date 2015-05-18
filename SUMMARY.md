@@ -17,6 +17,7 @@
    * [Arrow Functions](ecmascript_6/arrow_functions.md)
    * [Classes](ecmascript_6/classes.md)
    * [Default Parameters](ecmascript_6/default_parameters.md)
+   * [Destructuring assignment](ecmascript_6/destructuring_assignment.md)
    * [Let](ecmascript_6/let.md)
    * [Rest Parameters](ecmascript_6/rest_parameters.md)
 
