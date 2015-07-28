@@ -15,9 +15,13 @@
        * [Freeze & Seal](ecma5/freeze_&_seal.md)
 * [ECMAScript 6](ecmascript_6/README.md)
    * [Arrow Functions](ecmascript_6/arrow_functions.md)
+   * [Generators](ecmascript_6/generators.md)
    * [Classes](ecmascript_6/classes.md)
    * [Default Parameters](ecmascript_6/default_parameters.md)
    * [Destructuring assignment](ecmascript_6/destructuring_assignment.md)
+       * [Array](ecmascript_6/array.md)
+       * [Object](ecmascript_6/object.md)
    * [Let](ecmascript_6/let.md)
    * [Rest Parameters](ecmascript_6/rest_parameters.md)
+   * [Method Definitions](ecmascript_6/method_definitions.md)
 
