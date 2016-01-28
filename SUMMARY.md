@@ -24,4 +24,5 @@
    * [Let](ecmascript_6/let.md)
    * [Rest Parameters](ecmascript_6/rest_parameters.md)
    * [Method Definitions](ecmascript_6/method_definitions.md)
+   * Spread Operator
 
