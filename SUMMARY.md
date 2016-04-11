@@ -21,6 +21,7 @@
    * [Destructuring assignment](ecmascript_6/destructuring_assignment.md)
        * [Array](ecmascript_6/array.md)
        * [Object](ecmascript_6/object.md)
+   * [Default Parameters & Destructuring Assignment](ecmascript_6/default_parameters_&_destructuring_assignment.md)
    * [Let](ecmascript_6/let.md)
    * [Rest Parameters](ecmascript_6/rest_parameters.md)
    * [Method Definitions](ecmascript_6/method_definitions.md)
